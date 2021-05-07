@@ -96,5 +96,5 @@ for artist in tqdm(artists):
                                 'latest_release': latest_release
                             }})
     n+=1
-    if n == 20:
+    if n == 5:
         time.sleep(1)
